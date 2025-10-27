@@ -99,3 +99,4 @@ if solucion_final:
     print(f"  Asignaciones: {solucion_final}")
 else:
     print("No se encontró ninguna solución.")
+    #

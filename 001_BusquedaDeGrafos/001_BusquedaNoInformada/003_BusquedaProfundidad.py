@@ -64,3 +64,4 @@ mapa_simple = {
 print(f"Grafo (Mapa): {mapa_simple}")
 resultado_modificado = iniciar_busqueda_profunda(mapa_simple, 'A', 'G')
 print(f"Resultado de la búsqueda DFS Recursiva (A → G): {resultado_modificado}")
+#

@@ -84,3 +84,4 @@ for i, obs in enumerate(secuencia_observaciones):
     print(f"  -> Nueva Creencia b{i+1}: ", end="")
     creencia_str = [f"P({s})={p:.4f}" for s, p in robot.creencia.items()]
     print(", ".join(creencia_str))
+    #

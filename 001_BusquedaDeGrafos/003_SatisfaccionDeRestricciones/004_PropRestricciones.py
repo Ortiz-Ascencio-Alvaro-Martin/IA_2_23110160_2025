@@ -108,3 +108,4 @@ if solucion:
     print(f"   Asignaciones finales: {solucion}")
 else:
     print("No se encontró una solución compatible.")
+    #

@@ -111,3 +111,4 @@ if nash_equilibria:
         print("    Análisis: Racionalmente, ambos jugadores confiesan, llevando a un resultado peor para ambos que si hubieran cooperado.")
 else:
     print("\nNo se encontró un Equilibrio de Nash en estrategias puras.")
+    #

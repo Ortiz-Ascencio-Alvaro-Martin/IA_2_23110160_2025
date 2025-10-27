@@ -31,3 +31,4 @@ for ubicacion, conexiones in mapa.items():
     
 print("-" * 40)
 print(f"Tarea: Encontrar una ruta de '{INICIO}' a '{OBJETIVO}'")
+#

@@ -75,3 +75,4 @@ resultado_modificado = busqueda_profunda_progresiva(mapa, 'A', 'G', LIMITE_MAXIM
 
 print("\n" + "=" * 50)
 print(f"Resultado final de la Búsqueda Progresiva: {resultado_modificado}")
+#

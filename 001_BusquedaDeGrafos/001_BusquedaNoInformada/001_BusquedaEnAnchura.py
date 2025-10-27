@@ -66,3 +66,4 @@ mapa_simple = {
 print(f"Grafo (Mapa): {mapa_simple}")
 resultado_modificado = explorar_red_por_amplitud(mapa_simple, 'A', 'G')
 print(f"Resultado de la búsqueda (A → G): {resultado_modificado}")
+#

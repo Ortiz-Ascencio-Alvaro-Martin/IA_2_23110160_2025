@@ -83,6 +83,6 @@ print(f"  Tablero: {resultado_tablero}")
 print(f"  Conflictos: {conflictos_finales}")
 
 if conflictos_finales == SOLUCION_OPT:
-    print("✅ ¡Éxito! Se encontró una solución óptima sin conflictos.")
+    print(" ¡Éxito! Se encontró una solución óptima sin conflictos.")
 else:
-    print("❌ La búsqueda finalizó (se enfrió) sin encontrar la solución óptima.")
+    print(" La búsqueda finalizó (se enfrió) sin encontrar la solución óptima.")

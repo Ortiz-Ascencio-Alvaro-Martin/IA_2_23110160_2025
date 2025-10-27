@@ -98,3 +98,4 @@ print("Resultado AO* (Mejor Estrategia):")
 print(f"  - Decisión Óptima: Elegir la estrategia '{plan_optimo['estrategia']}'")
 print(f"  - Subproblemas a resolver: {plan_optimo['subproblemas']}")
 print(f"  - Costo Total Estimado: {plan_optimo['costo_estimado']}")
+#

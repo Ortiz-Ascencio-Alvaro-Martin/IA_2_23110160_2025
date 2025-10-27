@@ -48,14 +48,14 @@ class AgenteLRTA:
 
         # 2. Aprender: Actualizar el "mapa mental" del agente sobre su posición actual.
         # h(S) <- min[ costo_real(S, S') + h(S') ]
-        print(f"  🧠 Aprendizaje en '{self.posicion_actual}': h({self.posicion_actual}) cambia de {self.conocimiento_h[self.posicion_actual]} a {mejor_opcion_costo_f}.")
+        print(f" Aprendizaje en '{self.posicion_actual}': h({self.posicion_actual}) cambia de {self.conocimiento_h[self.posicion_actual]} a {mejor_opcion_costo_f}.")
         self.conocimiento_h[self.posicion_actual] = mejor_opcion_costo_f
         
         return mejor_sucesor, costo_del_movimiento
 
     def moverse(self, nueva_posicion):
         """Actualiza la posición del agente."""
-        print(f"  ➡️  Agente se mueve a '{nueva_posicion}'.")
+        print(f"  Agente se mueve a '{nueva_posicion}'.")
         self.posicion_actual = nueva_posicion
 
 # --- 1. CONFIGURACIÓN DEL ENTORNO Y EL AGENTE ---
@@ -98,6 +98,6 @@ while agente.posicion_actual != META:
 
 # --- 3. RESULTADOS FINALES ---
 if agente.posicion_actual == META:
-    print(f"🏁 ¡META ALCANZADA: '{META}'!")
+    print(f" ¡META ALCANZADA: '{META}'!")
     print(f"  Ruta final: {' → '.join(ruta_recorrida)}")
     print(f"  Costo real del viaje: {costo_total_real}")
